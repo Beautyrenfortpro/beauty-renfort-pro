@@ -1,6 +1,6 @@
 import { StrictMode, useEffect } from "react";
 import { createRoot } from "react-dom/client";
-import { HashRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter, MemoryRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Accueil from "./pages/Accueil";
 import { EstheAgenda, EstheMission, EstheMissions, EstheProfil, EstheRevenus } from "./pages/esthe/Esthe";
 import MissionInstitut from "./pages/institut/MissionInstitut";
@@ -18,9 +18,13 @@ function RetourEnHaut() {
   return null;
 }
 
+// La version de démonstration publiée garde la navigation en mémoire
+// (l'adresse de la page hôte ne transmet pas les routes).
+const Routeur = import.meta.env.VITE_ROUTEUR_MEMOIRE ? MemoryRouter : HashRouter;
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <HashRouter>
+    <Routeur>
       <RetourEnHaut />
       <Routes>
         <Route path="/" element={<Accueil />} />
@@ -37,6 +41,6 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/esthe/profil" element={<EstheProfil />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </HashRouter>
+    </Routeur>
   </StrictMode>,
 );
