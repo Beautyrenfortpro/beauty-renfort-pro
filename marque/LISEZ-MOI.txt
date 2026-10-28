@@ -1,0 +1,39 @@
+BEAUTY RENFORT PRO — KIT DU LOGO
+
+1-logo-principal
+  renfort-horizontal (.svg / .png)        Logo principal : site, documents, signature e-mail
+  renfort-horizontal-fond-sombre.png      Même logo pour fond bleu nuit ou foncé
+  renfort-horizontal-inverse.svg          Version vectorielle pour fond sombre
+  renfort-empile (.svg / .png)            Logo empilé : formats carrés, affiches
+  renfort-symbole (.svg / .png)           La fleur seule (petits espaces, filigrane)
+  renfort-mot.svg                         Le mot « renfort » seul
+
+2-une-couleur                             Versions noire, blanche et bleu nuit (tampon, broderie, gravure, fax)
+
+3-icones
+  icone-app-1024 / 512 / 192 / 180.png    Icône de l'application (App Store, Android, écran d'accueil)
+  favicon-48 / 32 / 16.png + .svg         Icône de l'onglet du navigateur
+
+4-reseaux-sociaux
+  photo-de-profil-1080.png                Photo de profil Facebook et Instagram
+
+Les fichiers .svg sont les originaux : ils s'agrandissent sans perte. Utilisez les .png pour Canva,
+Word ou les réseaux sociaux.
+
+COULEURS
+  Bleu nuit        #1A2747   RVB 26 39 71
+  Magenta          #B8005F   RVB 184 0 95
+  Rose clair       #F06AA6   (pétale sur fond sombre uniquement)
+  Gris porcelaine  #F1F2F5   (fonds clairs)
+
+POLICES (gratuites, licence OFL, disponibles sur Google Fonts et dans Canva)
+  Bricolage Grotesque ExtraBold : titres et logo
+  Figtree : textes et « BEAUTY PRO »
+
+RÈGLES
+  - Espace vide autour du logo : au moins la hauteur d'une pétale.
+  - Logo horizontal : 120 px de large minimum à l'écran, 30 mm à l'impression ; en dessous, la fleur seule.
+  - La pétale magenta pointe toujours vers le haut ; pas d'autres couleurs, d'ombre ni de déformation.
+
+Avant de déposer la marque, faites une recherche d'antériorité (INPI, base des marques) : aucune
+recherche juridique n'a été faite sur ce logo.
